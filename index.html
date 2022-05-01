@@ -1,100 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dana's Website</title>
-</head>
-<body>
-    <header>
-        <h1>Dana Neuhäusel</h1>
-        <nav>
-            <a href="">Contact</a>
-            <a href="">Biography</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div class="img">
-                <img src="images/" alt="personal-photo">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit enim alias, corrupti similique possimus incidunt quos? Dolores error similique veniam accusantium cupiditate, praesentium ipsum possimus eligendi? Iure, consectetur doloremque. Aliquid.</p>
-            </div>
-            <hr>
-            <div class="tools">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Tools and Languages</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Python</td>
-                            <td>Rust</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>CSS</td>
-                        </tr>
-                        <tr>
-                            <td>Bootstrap</td>
-                            <td>Javascript</td>
-                        </tr>
-                    </tbody>
-                </table>   
-            </div>
-            <div class="favgames">
-                <h4>Favorite Video Games</h4>
-                <ol>
-                    <li>BeatSaber</li>
-                    <li>Borderlands</li>
-                    <li>Rainbow Six Siege</li>
-                    <li>Assassin's Creed</li>
-                </ol>
-            </div>
-            <hr>
-            <div class="contacts">
-                <h4>You can contact me via:</h4>
-                <p>Phone: +4917656706822</p>
-                <p>Email: dana.nhsl@outlook.com</p>
-            </div>
-        </section>
-        <section>
-            <hr>
-            <h4>Find me on:</h4>
-            <a href="https://github.com/dananhsl" target="_blank"><img src="images/github.png" width="200" alt="github.png" ></a>
-            <a href="https://de.linkedin.com/in/dana-neuhäusel-a07764225" target="_blank"><img src="images/LinkedIn_Logo.png" width="500" alt="linked-in.png"></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officiis delectus fugit nostrum rerum. Eligendi sequi reiciendis repellendus esse, ducimus accusamus error nobis reprehenderit recusandae ab laudantium exercitationem architecto porro iusto natus autem dolorum! Doloribus ut alias quaerat voluptas perspiciatis laborum est incidunt maxime sapiente laboriosam sequi commodi sit exercitationem reprehenderit dicta suscipit ex natus mollitia, voluptatem quia culpa tempora.</p>
-        </section>
-        <hr>
-        <section>
-            <h3>My CV</h3>
-            <table cellspacing="10">
-                <thead>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2018 - 2020</td>
-                        <td>Data Security Specialist</td>
-                    </tr>
-                    <tr>
-                        <td>2020 - 2021</td>
-                        <td>Tattoo Artist</td>
-                    </tr>
-                    <td>2022 - now</td>
-                    <td>Web Dev Student</td>
-                </tbody>
-            </table>
-        </section>
+    <meta charset="utf-8">
+    <title>Skadi's Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Merriweather:wght@300&family=Montserrat:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 
-    </main>
-    <hr>
-    <footer>
-        <p>Copyright by Dana Neuhäusel</p>
-        <a href="">Impressum</a>
-    </footer>
+</head>
+
+<body>
+    <div class="container-all">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    <section id="home">
+        <h1>Hey, I'm Dana</h1>
+        <h2 class="landing">an ambitious web dev student</h2> 
+        <h3 id="welcome">Welcome to my page.</h3>
+            <p>I have a passion for UI design and creating new things from scratch.</p>
+    </section>
+        
+  
+    <section id="about">
+        <h2>Tools and Languages</h2>
+         <ul class="skills-left">
+            <li>Python &#11088 &#11088 &#11088 &#11088</li>
+            <li>HTML &#11088 &#11088 &#11088 &#11088</li>
+            <li>CSS &#11088 &#11088 &#11088</li>
+        </ul>
+        <ul class="skills-right">
+            <li>Bootstrap &#11088 &#11088</li>
+            <li>Rust &#11088 &#11088 &#11088</li>
+            <li>Javascript &#11088 &#11088 &#11088 &#11088</li>
+        </ul>
+        <a class="skill-row">
+        <h2>Tech Skills</h2>
+        <p>I started experimenting with code on my own but realised pretty soon that it can be lonely. On the search for a group of like-minded people I found neue fische.<p>
+    </section>
+    <section id="portfolio">
+
+    </section>
+    <section class="contact">
+        <h2>Get In Touch</h2>
+        <h3 class="contact-text">Feel free to contact me. I love working with and meeting new people.</h3>
+        <a class="btn" href="mailto:dana.nhsl@outlook.com">CONTACT ME</a>
+    </section>
+      
+    <section class="bottom-container">
+        <a class="footer-link" href="https://de.linkedin.com/in/dana-neuhäusel-a07764225">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/dananhsl">GitHub</a>
+        <a class="footer-link" href="https://github.com/dananhsl">Impressum</a>
+        <p>© 2022 Dana Neuhäusel.</p>
+    </section>
+    </div>
 </body>
 </html>
