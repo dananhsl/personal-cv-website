@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* ---------------------------- BODY ----------------------------*/
 body {
     background: url(../images/background.jpg);
     background-attachment: fixed;
@@ -49,6 +49,7 @@ section p {
     font-family: "Roboto", sans-serif;
 }
 
+/* ---------------------------- ABOUT ----------------------------*/
 .banner {
     display: flex;
     width: 100%;
@@ -67,6 +68,15 @@ section p {
     width: 550px;
     margin-left: 10%;
 }
+
+.about-header {
+    padding-top: 3.5rem;
+}
+
+.tools {
+    padding-top: 3.5rem;
+}
+/* ---------------------------- HOME ----------------------------*/
 h1 {
     color: #f4f4f4;
     font-size: 9rem;
@@ -87,10 +97,7 @@ h3 {
     font-family: "Roboto", sans-serif;
 }
 
-#welcome {
-    font-size: 2.5rem;
-    margin-top: 5rem;
-}
+/* ---------------------------- CONTACT ----------------------------*/
 .contact-text {
     margin-bottom: 50px;
 }
@@ -128,6 +135,7 @@ h3 {
     padding-bottom: 2px;
 }
 
+/* ---------------------------- NAVBAR ----------------------------*/
 .navbar {
     position: fixed;
     top: 0;
